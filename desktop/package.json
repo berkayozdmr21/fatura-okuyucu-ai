@@ -1,0 +1,28 @@
+{
+  "name": "fatura-okuyucu-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fatura Okuyucu masaüstü uygulaması (Electron, web arayüzünü sarmalar)",
+  "main": "main.js",
+  "author": "berkayozdmr21",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare-web": "node prepare-web.js",
+    "start": "npm run prepare-web && electron .",
+    "test": "node --test",
+    "dist": "npm run prepare-web && electron-builder"
+  },
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "tr.fatura.okuyucu",
+    "productName": "Fatura Okuyucu",
+    "files": ["main.js", "preload.js", "security.js", "app/**/*"],
+    "directories": { "output": "dist" },
+    "win": { "target": "nsis" },
+    "mac": { "target": "dmg", "category": "public.app-category.business" },
+    "linux": { "target": "AppImage", "category": "Office" }
+  }
+}

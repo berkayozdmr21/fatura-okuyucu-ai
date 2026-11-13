@@ -32,6 +32,9 @@ build/
 web-build/
 out/
 
+# Masaüstü: web derlemesinin kopyası (npm run prepare-web üretir)
+desktop/app/
+
 # Editör / OS
 .vscode/
 .idea/
