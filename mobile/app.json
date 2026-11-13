@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Fatura Okuyucu",
+    "slug": "fatura-okuyucu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": { "backgroundColor": "#0f766e" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "tr.fatura.okuyucu",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Fatura ve fişlerin fotoğrafını çekmek için kamera kullanılır.",
+        "NSPhotoLibraryUsageDescription": "Galerideki fatura veya fiş fotoğraflarını seçmek için kullanılır."
+      }
+    },
+    "android": {
+      "package": "tr.fatura.okuyucu",
+      "permissions": ["CAMERA"]
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
