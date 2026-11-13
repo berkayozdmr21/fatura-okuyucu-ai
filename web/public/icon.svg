@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Fatura Okuyucu">
+  <rect width="128" height="128" rx="28" fill="#0f766e"/>
+  <path d="M38 26h40l16 16v60a4 4 0 0 1-4 4H38a4 4 0 0 1-4-4V30a4 4 0 0 1 4-4z" fill="#fff"/>
+  <path d="M78 26v16h16" fill="#99f6e4"/>
+  <rect x="46" y="56" width="36" height="6" rx="3" fill="#0f766e"/>
+  <rect x="46" y="70" width="36" height="6" rx="3" fill="#0f766e" opacity=".6"/>
+  <rect x="46" y="84" width="22" height="6" rx="3" fill="#0f766e" opacity=".35"/>
+</svg>
