@@ -1,0 +1,39 @@
+# Gizli bilgiler: ASLA commit edilmez
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+*.db
+*.sqlite
+*.sqlite3
+
+# Kullanıcı verisi (fatura/fiş dosyaları)
+storage/
+uploads/
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+.expo/
+web-build/
+out/
+
+# Editör / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
