@@ -24,6 +24,13 @@ Masaüstü sürümünü farklı bir sunucuya bağlamak için web'i derlerken adr
 - Tarayıcı izinleri (kamera, konum, bildirim) tümüyle reddedilir; masaüstünde dosya seçici kullanılır.
 - Tek örnek kilidi: uygulama ikinci kez açılırsa mevcut pencere öne gelir.
 
+## Doğrulandı
+
+Gerçek Electron 33 penceresinde (Windows) denendi: uygulama `file://` ile açılır, sayfada `require`/`process` yoktur,
+`https://` adresine gezinme engellenir, ve pencere API'ye JSON gövdeli giriş isteği atabilir (HTTP 200). Electron `file://`
+sayfaları için CORS'u bu sürümde engellemiyor; farklı bir sürümde sorun çıkarsa `app://` özel protokolüne geçilip
+`CORS_ORIGINS`'e eklenmelidir.
+
 ## Bilinen sınırlar
 
 - Yükleyici (`npm run dist`) bu ortamda üretilmedi/denenmedi; kod imzalama ve otomatik güncelleme yok

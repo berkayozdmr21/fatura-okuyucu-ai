@@ -76,7 +76,3 @@ class DocumentPatch(BaseModel):
     data: Optional[Dict[str, Any]] = None
     status: Optional[Literal["approved", "rejected", "needs_review"]] = None
 
-
-class ChatIn(BaseModel):
-    message: str = Field(min_length=1, max_length=1000)
-    client: Literal["web", "desktop", "mobile"] = "web"
