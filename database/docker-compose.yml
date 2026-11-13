@@ -1,0 +1,20 @@
+# Yerel PostgreSQL. Kullanıcı/şifre bilgileri repoda yok; kök dizindeki .env dosyasından okunur.
+#   cp .env.example .env   (ve değerleri değiştir)
+#   docker compose --env-file ../.env up -d
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?POSTGRES_USER .env dosyasında tanımlı olmalı}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD .env dosyasında tanımlı olmalı}
+      POSTGRES_DB: ${POSTGRES_DB:-fatura_okuyucu}
+    ports:
+      # Yalnızca yerel makineden erişilir
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+
+volumes:
+  pgdata:
