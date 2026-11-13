@@ -1,0 +1,945 @@
+{
+  "screens": {
+    "home": {
+      "label": "Ana Sayfa",
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ]
+    },
+    "upload": {
+      "label": "Belge Yükle",
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ]
+    },
+    "documents": {
+      "label": "Belgeler",
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ]
+    },
+    "review": {
+      "label": "İnceleme Bekleyenler",
+      "clients": [
+        "web",
+        "desktop"
+      ]
+    },
+    "export": {
+      "label": "Dışa Aktar",
+      "clients": [
+        "web",
+        "desktop"
+      ]
+    },
+    "team": {
+      "label": "Büro ve Davet Kodu",
+      "clients": [
+        "web",
+        "desktop"
+      ]
+    },
+    "profile": {
+      "label": "Hesabım",
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ]
+    },
+    "help": {
+      "label": "Yardım",
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "id": "upload",
+      "title": "Fatura veya fiş yükleme",
+      "screen": "upload",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "fatura yukle",
+        "fis yukle",
+        "belge yukle",
+        "dosya yukle",
+        "belge ekle",
+        "fatura ekle",
+        "yeni belge",
+        "gonder",
+        "yukleme",
+        "gonderebilirim",
+        "faturayi gonder",
+        "fatura gonder",
+        "nereden gonderilir",
+        "atabilir miyim",
+        "yukle",
+        "at"
+      ],
+      "examples": [
+        "faturayı nasıl yüklerim",
+        "fiş göndermek istiyorum",
+        "yeni belge nasıl eklenir",
+        "dosya yükleyemiyorum",
+        "yükleme butonu nerede"
+      ],
+      "answer": "Belge yüklemek için “Belge Yükle” ekranını kullan. Yüklediğin belge otomatik okunur, sonucu birkaç saniye içinde “Belgeler” listesinde görürsün.",
+      "steps": [
+        "“Belge Yükle” ekranını aç.",
+        "Dosyanı seç (PDF, XML, PNG, JPG veya WEBP, en fazla 15 MB).",
+        "Yükle’ye bas ve okunmasını bekle.",
+        "Sonucu “Belgeler” listesinde kontrol et."
+      ]
+    },
+    {
+      "id": "camera",
+      "title": "Telefonla fiş fotoğrafı çekme",
+      "screen": "upload",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "kamera",
+        "fotograf cek",
+        "fis fotografi",
+        "resim cek",
+        "telefonla cek",
+        "foto",
+        "fotograf gonder",
+        "fotografi gonder",
+        "fisi cektim",
+        "cekiyorum",
+        "cektim",
+        "telefondan gonder",
+        "kamera ile"
+      ],
+      "examples": [
+        "fişin fotoğrafını nasıl çekerim",
+        "kamera ile yükleme",
+        "telefondan fiş yüklemek istiyorum",
+        "fotoğraf çekme butonu nerede"
+      ],
+      "answer": "Telefonda “Belge Yükle” ekranında kamera düğmesi ile fişin fotoğrafını doğrudan çekip gönderebilirsin. Bilgisayarda ise kayıtlı bir fotoğraf dosyasını seçersin.",
+      "steps": [
+        "Telefonda “Belge Yükle” ekranını aç.",
+        "Kamera düğmesine bas ve fişi çerçeveye al.",
+        "Fotoğrafı onayla, otomatik yüklenir ve okunur."
+      ]
+    },
+    {
+      "id": "photo_tips",
+      "title": "Fotoğraf okunmadı veya yanlış okundu",
+      "screen": "upload",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "okunmadi",
+        "okuyamadi",
+        "okunamadi",
+        "yanlis okundu",
+        "bulanik",
+        "karanlik",
+        "okumuyor",
+        "okuma hatasi",
+        "ocr",
+        "cektim ama okunamadi",
+        "okumadi",
+        "bulanik cikti"
+      ],
+      "examples": [
+        "fotoğrafım okunmadı",
+        "fiş yanlış okundu",
+        "belge okunamadı hatası alıyorum",
+        "neden okumuyor"
+      ],
+      "answer": "Okuma kalitesi fotoğrafa bağlıdır. Fişi düz bir zemine koyup iyi ışıkta, tamamı çerçevede ve buruşuk olmadan çek. Yine de sorun olursa belge “incelemede” görünür ve muhasebecin alanları elle düzeltebilir.",
+      "steps": [
+        "Fişi düz, açık renkli bir zemine koy.",
+        "Gölge düşürmeden, tüm fiş görünecek şekilde çek.",
+        "Mümkünse fotoğraf yerine e-fatura PDF’i veya XML’i yükle, daha doğru okunur."
+      ]
+    },
+    {
+      "id": "formats",
+      "title": "Desteklenen dosya türleri ve boyut",
+      "screen": "upload",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "dosya turu",
+        "format",
+        "pdf",
+        "xml",
+        "jpg",
+        "png",
+        "boyut",
+        "mb",
+        "hangi dosya",
+        "desteklen",
+        "xml e-fatura",
+        "e-fatura xml",
+        "uzanti",
+        "uzantilari",
+        "kabul ediliyor",
+        "kabul eder",
+        "atabilir",
+        "formatlar"
+      ],
+      "examples": [
+        "hangi dosya türleri destekleniyor",
+        "dosya boyutu sınırı kaç",
+        "excel yükleyebilir miyim",
+        "word dosyası olur mu"
+      ],
+      "answer": "Desteklenen türler: PDF, XML (e-Fatura / e-Arşiv UBL-TR), PNG, JPG ve WEBP. En fazla 15 MB. Excel, Word veya ZIP dosyaları şu an desteklenmiyor.",
+      "steps": []
+    },
+    {
+      "id": "documents",
+      "title": "Yüklenen belgeleri görme ve arama",
+      "screen": "documents",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "belgelerim",
+        "yuklenen belgeler",
+        "belge listesi",
+        "faturalarim",
+        "gecmis",
+        "liste",
+        "ara",
+        "arama",
+        "filtre",
+        "bul",
+        "yukledigim fisler",
+        "yukledigim",
+        "yukledikleri",
+        "listesi",
+        "fislerimi",
+        "gormek istiyorum"
+      ],
+      "examples": [
+        "yüklediğim faturaları nerede görürüm",
+        "belgelerimi listele",
+        "eski faturayı bulamıyorum",
+        "belge arama nasıl yapılır"
+      ],
+      "answer": "Yüklediğin tüm belgeler “Belgeler” ekranında listelenir. Durum filtresiyle (okundu, incelemede, onaylandı, reddedildi) daraltabilir, dosya adına göre arayabilirsin. Müşteri hesabında yalnızca kendi yüklediklerini, muhasebeci hesabında büronun tüm belgelerini görürsün.",
+      "steps": [
+        "“Belgeler” ekranını aç.",
+        "Üstteki arama kutusuna dosya adını yaz veya durum filtresini seç.",
+        "Ayrıntı için belgeye dokun / tıkla."
+      ]
+    },
+    {
+      "id": "status_meanings",
+      "title": "Belge durumlarının anlamı",
+      "screen": "documents",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "durum",
+        "inceleme",
+        "incelemede",
+        "onaylandi",
+        "reddedildi",
+        "islendi",
+        "basarisiz",
+        "ne demek",
+        "anlami",
+        "turuncu",
+        "kirmizi"
+      ],
+      "examples": [
+        "incelemede ne demek",
+        "durumlar ne anlama geliyor",
+        "onaylandı ile işlendi farkı ne",
+        "belgem neden incelemede"
+      ],
+      "answer": "Durumlar: İşlendi = sistem okudu ve sorun bulmadı. İncelemede = bir alan şüpheli, muhasebeci kontrol edecek. Onaylandı = muhasebeci doğruladı, dışa aktarılabilir. Reddedildi = geçersiz bulundu. Başarısız = dosya okunamadı.",
+      "steps": []
+    },
+    {
+      "id": "issue_meanings",
+      "title": "Belgedeki uyarıların anlamı",
+      "screen": "documents",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "uyari",
+        "hata mesaji",
+        "vkn hatali",
+        "saglama",
+        "toplam tutmuyor",
+        "kdv uyusmuyor",
+        "tutarsiz",
+        "gecersiz",
+        "uyusmuyor",
+        "turuncu uyari",
+        "sari uyari",
+        "kirmizi uyari",
+        "uyari var",
+        "hata yaziyor",
+        "isaretli alan",
+        "uyari yaziyor"
+      ],
+      "examples": [
+        "vkn sağlama toplamı hatalı ne demek",
+        "matrah kdv toplam uyuşmuyor uyarısı",
+        "belgede kırmızı uyarı var",
+        "neden uyarı çıktı"
+      ],
+      "answer": "Uyarılar okunan değerlerin birbiriyle tutmadığını gösterir. “VKN hatalı” numaranın yanlış okunduğu ya da yazıldığı, “Toplam tutmuyor” matrah + KDV ile toplamın uyuşmadığı, “Aynı fatura tekrarı” aynı satıcı ve fatura numarasının daha önce yüklendiği anlamına gelir. Müşteri hesabında düzeltme yapılamaz; muhasebecin kontrol eder.",
+      "steps": [
+        "Belgeyi aç ve “Uyarılar” bölümünü oku.",
+        "Orijinal dosya ile okunan değerleri karşılaştır.",
+        "Yanlış okuma varsa muhasebecine haber ver (muhasebeci hesabında alanı düzeltebilirsin)."
+      ]
+    },
+    {
+      "id": "duplicate",
+      "title": "“Bu dosya zaten yüklenmiş” uyarısı",
+      "screen": "documents",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "zaten yuklenmis",
+        "ayni dosya",
+        "tekrar",
+        "iki kez",
+        "cift",
+        "mukerrer",
+        "duplicate",
+        "tekrar atinca",
+        "ikinci kez",
+        "tekrar yukle",
+        "ayni belge"
+      ],
+      "examples": [
+        "bu dosya zaten yüklenmiş diyor",
+        "aynı faturayı iki kere yükledim",
+        "mükerrer fatura uyarısı",
+        "çift kayıt oluştu"
+      ],
+      "answer": "Aynı dosya büroya iki kez yüklenemez, bu çift kayıtları önler. Daha önce yüklenmiş belgeyi “Belgeler” listesinde bulabilirsin. Dosya farklı ama fatura numarası aynıysa belge “Aynı fatura tekrarı” uyarısıyla incelemeye düşer.",
+      "steps": [
+        "“Belgeler” ekranında dosya adını ara.",
+        "Mevcut belgeyi aç; tekrar yüklemene gerek yok."
+      ]
+    },
+    {
+      "id": "review",
+      "title": "İnceleme bekleyen belgeler",
+      "screen": "review",
+      "roles": [
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop"
+      ],
+      "keywords": [
+        "inceleme bekleyen",
+        "incelenecek",
+        "kontrol edilecek",
+        "sorunlu belge",
+        "onay bekleyen",
+        "bekleyen",
+        "inceleme kuyrugu",
+        "kontrol",
+        "toplu bak",
+        "sorunlu fatura",
+        "sorunlu faturalar",
+        "kontrol etmem gereken",
+        "incelenmesi gereken"
+      ],
+      "examples": [
+        "incelenmesi gereken belgeleri nerede görürüm",
+        "onay bekleyen faturalar",
+        "sorunlu belgeleri listele",
+        "kontrol bekleyenler nerede"
+      ],
+      "answer": "Şüpheli alanı olan belgeler “İnceleme Bekleyenler” ekranında toplanır. Sorunlu alanlar işaretli gelir; orijinal dosyaya bakıp düzeltir ve onaylarsın.",
+      "steps": [
+        "“İnceleme Bekleyenler” ekranını aç.",
+        "Bir belge seç, işaretli alanları orijinal dosyayla karşılaştır.",
+        "Gerekirse alanı düzelt, sonra Onayla."
+      ]
+    },
+    {
+      "id": "edit_approve",
+      "title": "Alan düzeltme, onaylama ve reddetme",
+      "screen": "review",
+      "roles": [
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop"
+      ],
+      "keywords": [
+        "duzelt",
+        "duzenle",
+        "degistir",
+        "onayla",
+        "onaylama",
+        "onaylarim",
+        "onaylanir",
+        "reddet",
+        "reddetme",
+        "onay",
+        "red",
+        "yanlis okunan alan",
+        "elle"
+      ],
+      "examples": [
+        "yanlış okunan tutarı nasıl düzeltirim",
+        "faturayı nasıl onaylarım",
+        "belgeyi reddetmek istiyorum",
+        "alanı elle değiştirme"
+      ],
+      "answer": "Belge detayında alanları elle düzeltebilir, ardından onaylayabilir veya reddedebilirsin. Düzeltme sonrası sistem kuralları (VKN, KDV, toplam) yeniden kontrol eder; sorun kalmadıysa uyarılar kalkar.",
+      "steps": [
+        "Belgeyi aç.",
+        "Yanlış alanı düzelt ve Kaydet’e bas.",
+        "Uyarılar temizlendiyse Onayla; geçersiz belgeyse Reddet."
+      ]
+    },
+    {
+      "id": "export",
+      "title": "Excel veya CSV olarak dışa aktarma",
+      "screen": "export",
+      "roles": [
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop"
+      ],
+      "keywords": [
+        "excel",
+        "csv",
+        "disa aktar",
+        "indir",
+        "xlsx",
+        "muhasebe programi",
+        "aktarim",
+        "aktar",
+        "export",
+        "rapor",
+        "cikti",
+        "excel ciktisi",
+        "veri gonder",
+        "programa veri",
+        "veri aktar",
+        "programima",
+        "tablo olarak",
+        "tablo",
+        "cikti al"
+      ],
+      "examples": [
+        "faturaları excel'e nasıl aktarırım",
+        "csv indirmek istiyorum",
+        "onaylı belgeleri indir",
+        "muhasebe programına aktarma"
+      ],
+      "answer": "Onayladığın belgeleri “Dışa Aktar” ekranından Excel (.xlsx) veya CSV olarak indirebilirsin. Varsayılan olarak yalnızca onaylı belgeler aktarılır. Çıktı genel bir tablo biçimindedir; Logo, Mikro ya da Luca için özel içe aktarma şablonu henüz yok.",
+      "steps": [
+        "“Dışa Aktar” ekranını aç.",
+        "İstediğin biçimi seç (Excel veya CSV).",
+        "İndir’e bas."
+      ]
+    },
+    {
+      "id": "invite",
+      "title": "Müşteri davet kodu",
+      "screen": "team",
+      "roles": [
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop"
+      ],
+      "keywords": [
+        "davet kodu",
+        "davet",
+        "musteri ekle",
+        "musteri kayit",
+        "kod",
+        "musterimi nasil eklerim",
+        "ekip",
+        "buro kodu"
+      ],
+      "examples": [
+        "müşterimi nasıl eklerim",
+        "davet kodu nerede",
+        "müşteri kayıt olabilmesi için ne yapmalı",
+        "büro kodunu görmek istiyorum"
+      ],
+      "answer": "Müşterilerin büroya katılması için davet kodu gerekir. Kodu “Büro ve Davet Kodu” ekranında bulursun; müşterine gönder, kayıt olurken bu kodu girsin. Müşteri yalnızca kendi yüklediği belgeleri görür.",
+      "steps": [
+        "“Büro ve Davet Kodu” ekranını aç.",
+        "Kodu kopyala ve müşterine ilet.",
+        "Müşteri kayıt ekranında “Müşteri” rolünü seçip kodu girer."
+      ]
+    },
+    {
+      "id": "register_client",
+      "title": "Müşteri olarak kayıt olma",
+      "screen": null,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "kayit ol",
+        "hesap ac",
+        "uye ol",
+        "davet kodu giris",
+        "kayit olamiyorum",
+        "davet kodu gecersiz",
+        "kod calismiyor",
+        "kod istiyor",
+        "kod yazacagim",
+        "kayit olurken",
+        "kayit icin",
+        "hangi bilgiler gerekiyor"
+      ],
+      "examples": [
+        "nasıl kayıt olurum",
+        "davet kodum geçersiz diyor",
+        "hesap açamıyorum",
+        "kayıt ekranında kod soruyor"
+      ],
+      "answer": "Müşteri olarak kayıt olmak için muhasebecinin verdiği davet kodu gerekir. Kod geçersiz diyorsa harfleri doğru yazdığından emin ol, olmazsa muhasebecinden kodu yeniden iste. Muhasebeciler ise büro adıyla kendi hesabını açar.",
+      "steps": [
+        "Kayıt ekranında rolünü seç.",
+        "Müşteriysen muhasebecinden aldığın davet kodunu gir.",
+        "E-posta ve en az 8 karakterlik şifre belirle."
+      ]
+    },
+    {
+      "id": "delete",
+      "title": "Belge silme",
+      "screen": "documents",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "sil",
+        "silme",
+        "kaldir",
+        "yanlis yukledim",
+        "geri al",
+        "iptal",
+        "yanlislikla ekledim",
+        "kaldirabilir miyim",
+        "yanlis belgeyi"
+      ],
+      "examples": [
+        "yanlış yüklediğim belgeyi nasıl silerim",
+        "faturayı kaldırmak istiyorum",
+        "belgeyi sil",
+        "silme butonu nerede"
+      ],
+      "answer": "Belgeyi “Belgeler” listesinden açıp silebilirsin. Silinen belge ve dosyası geri getirilemez. Müşteri hesabı onaylanmış belgeyi silemez, bunu yalnızca muhasebeci yapabilir.",
+      "steps": [
+        "“Belgeler” ekranında belgeyi aç.",
+        "Sil düğmesine bas ve onayla."
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Verilerin saklanması ve gizlilik (KVKK)",
+      "screen": null,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "kvkk",
+        "gizlilik",
+        "veri",
+        "saklan",
+        "guvenli",
+        "silinir mi",
+        "kac gun",
+        "sure",
+        "yapay zeka",
+        "disariya",
+        "paylasilir",
+        "kimler gorebilir",
+        "kimler gorur",
+        "kim gorur",
+        "erisim",
+        "buluta gidiyor",
+        "buluta",
+        "ne kadar sure duruyor",
+        "yapay zeka okuyor"
+      ],
+      "examples": [
+        "belgelerim ne kadar süre saklanıyor",
+        "verilerim güvende mi",
+        "kvkk uyumlu mu",
+        "faturalarım yapay zekaya gidiyor mu"
+      ],
+      "answer": "Yüklenen dosyalar yalnızca bürona görünür ve varsayılan olarak 30 gün sonra otomatik silinir; okunan fatura verileri kayıtlı kalır. Varsayılan modda belgeler üçüncü taraf bir yapay zeka servisine gönderilmez, okuma sunucuda yerel olarak yapılır. Bunu bürondaki yönetici değiştirdiyse sana bildirilmelidir.",
+      "steps": []
+    },
+    {
+      "id": "confidence",
+      "title": "Güven skoru nedir",
+      "screen": "documents",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "guven",
+        "skor",
+        "yuzde",
+        "ne kadar emin",
+        "dogruluk",
+        "guvenilir",
+        "oranlar",
+        "oran dusuk",
+        "dusuk gorunuyor",
+        "yuzde degerleri",
+        "yuzdeler",
+        "dusuk skor"
+      ],
+      "examples": [
+        "güven skoru ne demek",
+        "okuma doğruluğu nasıl hesaplanıyor",
+        "bu alan ne kadar güvenilir",
+        "yüzde kaç emin"
+      ],
+      "answer": "Her alanın yanındaki güven skoru, sistemin o değeri ne kadar emin okuduğunu gösterir. Düşük skor (%70 altı) veya kural uyarısı olan alanlar incelemeye alınır. E-fatura XML’i yapısal olduğu için neredeyse tam güvenilirdir; fotoğraflar daha düşük skor alabilir.",
+      "steps": []
+    },
+    {
+      "id": "mobile_install",
+      "title": "Telefona kurma",
+      "screen": null,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "telefona kur",
+        "uygulama indir",
+        "android",
+        "iphone",
+        "ios",
+        "mobil uygulama",
+        "ana ekrana ekle",
+        "play store",
+        "app store",
+        "indiririm",
+        "telefona indir",
+        "telefona nasil"
+      ],
+      "examples": [
+        "telefona nasıl kurarım",
+        "mobil uygulama var mı",
+        "iphone için uygulama",
+        "ana ekrana nasıl eklenir"
+      ],
+      "answer": "Mobil uygulama ile fiş fotoğrafı çekip doğrudan gönderebilirsin. Aynı hesapla web ve masaüstü uygulamasına da giriş yapabilirsin; belgelerin hepsinde ortak görünür. Mobil uygulama yalnızca yükleme ve belge görüntüleme içindir; inceleme, onay ve dışa aktarma web/masaüstündedir.",
+      "steps": []
+    },
+    {
+      "id": "login_trouble",
+      "title": "Giriş yapamıyorum",
+      "screen": null,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "giris yapamiyorum",
+        "giris",
+        "oturum",
+        "sifre yanlis",
+        "hesabim kilitlendi",
+        "cok fazla deneme",
+        "429",
+        "e-posta veya sifre",
+        "giremiyorum",
+        "giremiyor",
+        "hesabima giremiyorum",
+        "sifrem kabul edilmiyor",
+        "kabul edilmiyor"
+      ],
+      "examples": [
+        "giriş yapamıyorum",
+        "şifre yanlış diyor",
+        "çok fazla başarısız deneme uyarısı",
+        "oturum kapandı"
+      ],
+      "answer": "E-posta ve şifreni kontrol et (şifre büyük/küçük harfe duyarlıdır). Art arda 5 hatalı denemeden sonra giriş 15 dakika kilitlenir, bu sürenin dolmasını bekle. Oturum süresi dolduysa yeniden giriş yapman yeterli.",
+      "steps": [
+        "E-postayı doğru yazdığından emin ol.",
+        "Kilitlendiysen 15 dakika bekle.",
+        "Hâlâ olmuyorsa bürondaki muhasebeciyle iletişime geç."
+      ]
+    },
+    {
+      "id": "not_available_password_reset",
+      "title": "Şifre sıfırlama",
+      "screen": null,
+      "available": false,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "sifremi unuttum",
+        "sifre sifirla",
+        "sifre degistir",
+        "sifre yenile",
+        "parola",
+        "parolami kaybettim",
+        "sifremi kaybettim",
+        "kaybettim",
+        "parola degistir",
+        "sifremi degistirmek"
+      ],
+      "examples": [
+        "şifremi unuttum",
+        "şifre nasıl sıfırlanır",
+        "şifremi değiştirmek istiyorum"
+      ],
+      "answer": "Şifre sıfırlama ve şifre değiştirme özelliği henüz uygulamada yok. Şifreni unuttuysan şu an için sistem yöneticisinden yeni bir hesap veya şifre desteği istemen gerekir.",
+      "steps": []
+    },
+    {
+      "id": "not_available_integration",
+      "title": "Logo, Mikro, Luca, Paraşüt entegrasyonu",
+      "screen": "export",
+      "available": false,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "logo",
+        "mikro",
+        "luca",
+        "parasut",
+        "zirve",
+        "entegrasyon",
+        "dogrudan aktar",
+        "otomatik aktar",
+        "e-fatura gonder",
+        "muhasebe yazilimi",
+        "baglanti",
+        "baglanti kur",
+        "baglanabiliyor",
+        "entegre mi",
+        "uyumlu mu",
+        "mikro ile",
+        "luca ile",
+        "logo ile"
+      ],
+      "examples": [
+        "logo ile entegre mi",
+        "parasüte otomatik aktarım var mı",
+        "luca formatında indirebilir miyim",
+        "faturayı e-fatura olarak gönderebilir miyim"
+      ],
+      "answer": "Logo, Mikro, Luca veya Paraşüt ile doğrudan entegrasyon henüz yok; uygulama e-fatura de göndermez, yalnızca gelen belgeleri okur. Şimdilik onaylı belgeleri Excel veya CSV olarak indirip programına aktarabilirsin.",
+      "steps": []
+    },
+    {
+      "id": "not_available_lines",
+      "title": "Kalem (ürün satırı) bazlı okuma",
+      "screen": null,
+      "available": false,
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "kalem",
+        "urun satiri",
+        "satir",
+        "miktar",
+        "birim fiyat",
+        "urun listesi",
+        "stok",
+        "adet",
+        "adetini",
+        "urunlerin",
+        "urun kalemleri",
+        "satirlari",
+        "cekiyor mu",
+        "cikariyor mu"
+      ],
+      "examples": [
+        "faturadaki ürün kalemlerini okuyor mu",
+        "satır bazında aktarım var mı",
+        "miktar ve birim fiyatı görebilir miyim"
+      ],
+      "answer": "Uygulama şu an yalnızca fatura başlık bilgilerini okur: satıcı/alıcı, VKN, fatura no, tarih, matrah, KDV ve toplam. Ürün kalemleri (satırlar) henüz okunmuyor.",
+      "steps": []
+    },
+    {
+      "id": "support",
+      "title": "Destek ve iletişim",
+      "screen": "help",
+      "roles": [
+        "client",
+        "accountant"
+      ],
+      "clients": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "keywords": [
+        "destek",
+        "yardim",
+        "iletisim",
+        "insanla konus",
+        "yetkili",
+        "temsilci",
+        "sorun bildir",
+        "hata bildir",
+        "sikayet",
+        "canli destek",
+        "birine yazmak",
+        "yazmak istiyorum",
+        "mesaj gonder",
+        "ulasmak"
+      ],
+      "examples": [
+        "destekle konuşmak istiyorum",
+        "hata bildirmek istiyorum",
+        "bir yetkiliye ulaşabilir miyim",
+        "iletişim bilgisi"
+      ],
+      "answer": "Çözemediğin bir sorun için bürondaki muhasebeciyle iletişime geçebilirsin. Uygulama hatası bildirmek için “Yardım” ekranındaki iletişim bilgilerini kullan.",
+      "steps": []
+    }
+  ],
+  "smalltalk": {
+    "greeting": "Merhaba! Ben uygulama asistanıyım. Bir şeyi nerede bulacağını veya nasıl yapacağını sorabilirsin, gerekirse seni doğrudan o ekrana götürürüm.",
+    "thanks": "Rica ederim! Başka bir şey sorarsan buradayım.",
+    "fallback": "Bunu tam anlayamadım. Şunlardan birini kastetmiş olabilir misin?",
+    "off_topic": "Ben yalnızca bu uygulamayla ilgili sorulara yardımcı olabiliyorum. Belge yükleme, inceleme, dışa aktarma gibi konularda soru sorabilirsin."
+  }
+}
