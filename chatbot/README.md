@@ -42,7 +42,7 @@ python -m pytest -q                 # 81 test (depo kökünde: python -m pytest 
 python -m chatbot.eval_heldout -v   # hiç ayarlanmamış sorularla ölçüm
 ```
 
-- `scenarios.json`: 56 senaryo (nerede/nasıl soruları, rol kısıtı, istemci kısıtı, olmayan özellikler, selam,
+- `scenarios.json`: 61 senaryo (nerede/nasıl soruları, rol kısıtı, istemci kısıtı, olmayan özellikler, selam,
   konu dışı, anlamsız metin, prompt enjeksiyonu denemesi, ekran bağlamı). Büyük harf, Türkçe karaktersiz ve
   noktalamalı varyantlarla da test edilir.
 - Bunlar bilgi tabanıyla birlikte yazıldığı için **kendi içinde başarı kanıt sayılmaz**.
